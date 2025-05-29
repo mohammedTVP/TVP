@@ -119,9 +119,22 @@
       <h1>Welcome to My Portfolio</h1>
     </div>
     <div id="sidebar" class="sidebar">
-      <a href="america.html">America</a>
-      <a href="canada.html">Canada</a>
-    </div>
+  <span style="position: absolute; top: 10px; right: 15px; color: #fff; font-size: 1.5rem; cursor: pointer;" onclick="toggleSidebar()">&times;</span>
+  <details style="padding: 10px 20px;">
+  <summary style="color: #fff; font-size: 1.2rem; cursor: pointer;">America</summary>
+  <a href="arkansas.html">Arkansas</a>
+  <a href="colorado.html">Colorado</a>
+  <a href="delaware.html">Delaware</a>
+  <a href="florida.html">Florida</a>
+  <a href="illinois.html">Illinois</a>
+  <a href="massachusetts.html">Massachusetts</a>
+  <a href="newyork.html">New York</a>
+  <a href="oklahoma.html">Oklahoma</a>
+  <a href="texas.html">Texas</a>
+</details>
+
+  <a href="canada.html">Canada</a>
+</div>
     <nav>
       <a href="#about">About Me</a>
       <a href="#projects">Travel Gallery</a>
@@ -146,7 +159,11 @@
       <h2>Travel Gallery</h2>
       <p>Here are some of my favorite travel moments. Click on the images to explore more about each adventure.</p>
       <div class="gallery">
-        <img src="/mnt/data/IMG_2437.JPG" alt="Travel Photo 1">
+        <div>
+  <img src="IMG-20250210-WA0002(4).jpg" alt="Colorado 2024" style="width: 100%; border-radius: 5px;">
+  <p style="text-align: center; margin-top: 0.5rem; font-size: 1rem;">Colorado 2024</p>
+</div>
+
         <img src="https://via.placeholder.com/300" alt="Travel Photo 2">
         <img src="https://via.placeholder.com/300" alt="Travel Photo 3">
         <img src="https://via.placeholder.com/300" alt="Travel Photo 4">
